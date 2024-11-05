@@ -55,7 +55,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(406, 452);
@@ -89,23 +89,25 @@
             // 
             // btnGood
             // 
+            this.btnGood.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnGood.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGood.Location = new System.Drawing.Point(118, 197);
             this.btnGood.Name = "btnGood";
             this.btnGood.Size = new System.Drawing.Size(117, 78);
             this.btnGood.TabIndex = 5;
             this.btnGood.Text = "I\'m good!";
-            this.btnGood.UseVisualStyleBackColor = true;
+            this.btnGood.UseVisualStyleBackColor = false;
             // 
             // btnBad
             // 
+            this.btnBad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnBad.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBad.Location = new System.Drawing.Point(577, 197);
             this.btnBad.Name = "btnBad";
             this.btnBad.Size = new System.Drawing.Size(117, 78);
             this.btnBad.TabIndex = 6;
             this.btnBad.Text = "I\'m bad!";
-            this.btnBad.UseVisualStyleBackColor = true;
+            this.btnBad.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
